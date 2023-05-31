@@ -2,8 +2,7 @@ import React from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 import Logo from '../../assets/images/logo.png';
-
-const NavbarItemLists = ['Market', 'Exchange', 'Tutorials', 'Wallets', 'Blogs'];
+import { NavbarItemLists } from '../../utils';
 const NavbarItem = ({ title, classProps }) => {
 	return <li className={`mx-4 cursor-pointer ${classProps}`}>{title}</li>;
 };
